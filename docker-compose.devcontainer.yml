@@ -1,0 +1,11 @@
+version: '3'
+services:
+  vvscide:
+    volumes:
+      - ~:~/local-home-folder:cached # Additional bind mount
+    # ...
+
+  rrstudiodevcontainer:
+    volumes:
+      - ~/some-folder:~/some-folder:cached # Additional bind mount
+    # ...

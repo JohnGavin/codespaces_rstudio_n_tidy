@@ -1,0 +1,12 @@
+{
+  "name": "rrstudiodevcontainer 2",
+  // "dockerComposeFile": ["../docker-compose.yml"],
+  "dockerComposeFile": [
+	  "../docker-compose.yml",
+	  "../docker-compose.devcontainer.yml"],
+  "service": "rrstudiodevcontainer",
+  // optional, but will leave the containers running when VS Code closes
+  "shutdownAction": "none",
+  "extensions": ["dbaeumer.vscode-eslint"],
+  "workspaceFolder": "/workspace/rrstudiodevcontainer"
+}

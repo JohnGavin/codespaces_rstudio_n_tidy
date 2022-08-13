@@ -1,0 +1,12 @@
+{
+  "name": "vvscode 1",
+  // "dockerComposeFile": ["../docker-compose.yml"],
+  "dockerComposeFile": [
+	  "../docker-compose.yml",
+	  "../docker-compose.devcontainer.yml"],
+  "service": "vvscode",
+  "shutdownAction": "none",
+  "extensions": ["golang.go"],
+  // Open the sub-folder with the source code
+  "workspaceFolder": "/workspace/vvscode"
+}
